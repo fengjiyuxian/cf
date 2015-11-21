@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+  <meta name="renderer" content="webkit">
+  <meta name="keywords" content="靠谱投, 股权投资, 股权融资, 股权融资平台, 店铺融资, 融资平台, 餐饮投资、餐饮融资、餐饮股权众筹, 餐饮店铺融资, 投资管家, 融资管家, 餐厅管家">
+  <meta name="description" content="靠谱投专注同城精益餐饮管家式股权投融资服务。靠谱投为非专业餐饮的投资人找到靠谱、盈利的投资项目，为靠谱的项目找到能够帮助餐厅成长的股东！对于融资方，靠谱投不仅仅为靠谱的项目低成本、高效率实现融资目标，还提供各种融资中与融资后的综合服务，充分挖掘股东投后消费、传播、资源等价值。对于投资人，靠谱投代表投资人监督项目方进行财务监管、保护股东投后权益。">
+  <title> 餐饮众筹</title>
+  <link rel="stylesheet" href="__PUBLIC__/css/base-a3766ee23b.css">
+  <link rel="stylesheet" href="__PUBLIC__/css/index-87a54b128a.css"> 
+
+  <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>  
+  <script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+  
+</head>
+
+
+<body>
+  
+  <header id="header">
+    <div class="container clearfix">
+      <a href="/" class="logo fl">餐饮众筹</a>
+      <div class="mobile-nav fl hidden phone-show">
+        <a class="mobile-nav-btn" data-offcanvas="overlay" href="#header-offcanvas">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <div class="offcanvas" id="header-offcanvas">
+          <div class="offcanvas-bar">
+            <div class="offcanvas-content">
+              
+                <div class="mobile-auth clearfix">
+                  <a class="fl" href="/login?next=/" >登录</a>
+                  <a class="fl" href="/signup?next=/">注册</a>
+                </div>
+              
+                <ul class="mobile-nav-list">
+                  <li><a class="active index" href="{:U('/home/index/index')}">首页</a></li>
+                  <li><a  href="{:U('/home/index/investlists')}">投我喜欢</a></li>
+                  <li><a  href="/help/guide">新手指南</a></li>
+                  
+                </ul>
+            </div>
+          </div>
+        </div>       
+      </div>
+      <nav class="nav-wrap clearfix phone-hidden">
+        <ul class="link-nav">
+          <li><a class="active index" href="{:U('/home/index/index')}">首页</a></li>
+          <li><a  href="{:U('/home/index/investlists')}">投我喜欢</a></li>
+          <li><a  href="/applyfunding">餐饮融资</a></li>
+          <li><a  href="/help/guide">新手指南</a></li>
+        </ul>
+
+        <div class="search-wrap fl phone-hidden">
+          <form action="/search" method="get">
+            <input type="text" name="word" class="search-input" id="search_word" value="" placeholder="搜索项目名称" />
+            <span class="icon-search"></span>
+            <input class="search-btn" type="submit" value="搜索"></input>
+          </form>
+        </div>
+        
+          <ul class="action-nav">
+            <li><a href="/login?next=/" >登录</a></li>
+            <li><a class="btn-join" href="/signup?next=/">注册</a></li>
+
+          </ul>
+      </nav> 
+    </div>
+  </header>
+
+  {__CONTENT__}
+
+  <footer id="footer">
+  <div class="footer-info phone-hidden">
+    <div class="inner clearfix">
+
+      <div class="help-links fl">
+        <h4>帮助中心</h4>
+        <ul class="fl">
+          <li><a href="/help/investor">投资人指南</a></li>
+          <li><a href="/help/raiser">项目方指南</a></li>
+          <li><a href="/help/glossary">名词解释</a></li>
+        </ul>
+      </div>
+
+      <div class="help-links fl">
+        <h4>快速开始</h4>
+        <ul class="fl">
+          <li><a href="/help/guide">新手指南</a></li>
+          <li><a href="/invest">投我喜欢</a></li>
+          <li><a href="/raise">发起众筹</a></li>
+        </ul>
+      </div>
+
+      <div class="qrcodes fl">
+        <div class="qrcode fl">
+          <img width="120" width="120" src="http://static.kaoputou.com/image/qrcode_for_gzh_1010.png" alt="公众号二维码">
+          <span>靠谱投微信公众号</span>
+        </div>
+        <div class="qrcode fl">
+          <img width="120" width="120" src="http://static.kaoputou.com/image/qrcode_for_app_1010.png" alt="应用下载二维码">
+          <span>靠谱投移动客户端</span>
+        </div>
+        
+      </div>
+
+      <div class="airline-wrap fr">
+        <h4>服务电话</h4>
+        <p class="airline">4000-400-177</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="inner clearfix">
+      <ul class="about-links fl">
+        <li class="fl"><a href="/about">关于靠谱投</a></li>
+        <li class="fl"><a href="/terms/user">用户服务协议</a></li>
+        <li class="fl"><a href="/about#join-us">加入我们</a></li>
+        <li class="fl"><a href="/help/guide">帮助中心</a></li>
+        
+      </ul>
+      <p class="icp-info fr"> &copy;2015 <a href="/">靠谱投</a>  京ICP备15039009号</p>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37265556-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+  <script src="__PUBLIC__/bower/ResponsiveSlides/responsiveslides.min.js"></script>
+  <script src="__PUBLIC__/bower/jquery.bxslider/jquery.bxslider.min.js"></script>
+  <script src="__PUBLIC__/bower/magnific/jquery.magnific-popup.min.js"></script>
+  <script src="__PUBLIC__/bower/video-js/video.js"></script>
+  <script src="__PUBLIC__/js/index-build-d8cb8ec64d.js"></script>
+
+</body>
+</html>
